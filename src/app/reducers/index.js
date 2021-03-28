@@ -2,7 +2,7 @@ import ActionTypes from '../constants/actionTypes'
 
 const initialState = {
     weatherData:[],
-    townFound:false
+    townFound:undefined
 };
 
 export default function func(state = initialState, action){
